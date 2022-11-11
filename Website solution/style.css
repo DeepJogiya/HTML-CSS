@@ -69,10 +69,8 @@ nav ul li a{
 }
 
 .section3{
-    display: flex;
-    
+    display: flex;   
     justify-content: space-around;
-    
 }
 .section3 div{
     flex:1;
@@ -85,7 +83,7 @@ nav ul li a{
 .div1 ,.l-div1, .l-div2 , .l-div3{
     border-width: 3px 0px 0px 0px;
     border-color: grey;
-    border-style: solid;
+    /* border-style: solid; */
 }
 .div1 ul{
     margin: 5px 46px;
