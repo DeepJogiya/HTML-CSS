@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo img{
+    width: 200px;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.navbar ul li a{
+    padding: 0 6px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+.banner{
+    height: 110vh;
+    background-image: url(/images/carousel.png);
+    background-size: cover;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 0 4rem;
+}
+.simply{
+    color: red;
+}
+.banner-content{
+    display: flex;
+    flex-direction: column;
+    /* height: 40vh; */
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.banner-content h3{
+    color: white;
+    font-weight: 200;
+}
+.banner-content h1{
+    color: white;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 65px;
+}
+.banner-content p{
+    color: white;
+    font-weight: 200;
+    margin-bottom: 10px;
+}
+.banner-content a{
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+    background-color: red;
+    padding: 3px;
+    border-radius: 2px;
+    width: 10%;
+}
+.section1{
+    display: flex;
+    justify-content: space-between;
+    margin: 80px;
+    flex-wrap: wrap;
+}
+.house-content{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.house-content a{
+    width: 14%;
+    padding: 5px 7px;
+    margin-top: 12px;
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+.house-content h4{
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+hr{
+    width: 34%;
+    border: 1px solid red;
+    margin-bottom: 15px;
+}
+.para{
+    margin-top: 10px;
+}
+.section2{
+    background-color:#131313;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 3rem;
+    flex-wrap: wrap;
+}
+.about h4{
+    margin:15px 0;
+    color: white;
+}   
+.about h1{
+    color: white;
+    margin-bottom: 5px;
+}
+.about p{
+    text-align: center;
+    margin: 10px 50px;
+    color: grey;
+}
+.about-box{
+    display: flex;
+    /* justify-content: space-around; */
+    flex-wrap: wrap;
+    
+}
+.about-box div{
+    width: 450px;
+    padding: 30px 30px;
+    margin-left: 10rem;
+    margin-bottom: 5rem;
+    background-color: #222222;
+    border-bottom: 2px solid red;
+    color: white;
+}
+.about-box div h1{
+    margin: 10px 0px;
+}
+.about-box p{
+    line-height: 25px;
+}
+.contact-us{
+    display: flex;
+    color: grey;
+    background-image: url(/images/contact.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 90px;
+}
+.contact-us h1{
+    color: white;
+    line-height: 65px;
+}
+.contact-us a{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+    padding: 6px;
+}
+.section3{
+    padding: 30px;
+}
+.about-us{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.about-logo{
+    width: 40%;
+    padding: 0px 50px;
+    line-height: 20px;
+}
+.about-logo img{
+    width: 40%;
+    margin-bottom: 10px;
+}
+.about-logo p{
+    margin-bottom: 10px;
+}
+.about-logo ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+}
+.about-logo li{
+    margin-right: 8px;
+}
+.about-logo i{
+    font-size: 25px;
+    color: red;
+}
+.quick-link{
+    width: 20%;
+}
+.cont-us{
+    width: 30%;
+}
+.about-us h3{
+    color: red;
+    font-size: 2rem;
+}
+.about-us li{
+    list-style-type: none;
+    padding: 10px 0px;
+}
+.about-us span{
+    font-weight: 700;
+}
+.about-us a{
+    text-decoration: none;
+    color: black;
+}
+.terms-condition{
+    background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 10px;
+}
+.terms-condition ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.terms-condition li{
+    list-style-type: none;
+    padding: 2px;
+}
